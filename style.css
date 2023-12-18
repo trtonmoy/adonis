@@ -1,0 +1,270 @@
+h2 {
+  text-shadow: 0px 4px 33px #2309a694, 0px 7px 7px #2309a6a5;
+}
+.site-menu-main .nav-link-item {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  position: relative;
+  padding: 8px !important;
+}
+/* box animation */
+/* .cardBox {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+}
+.card {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  background: #000814;
+  border-radius: 20px;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+}
+.card h2,
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 800;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+span {
+  top: 75%;
+}
+
+.card .content h3 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+.card .content p {
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+.card .content {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover .content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card:hover h2,
+.card:hover span {
+  opacity: 0;
+}
+
+.cardBox::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 150%;
+  background: #40e0d0;
+  background: -webkit-linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
+  background: linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
+  animation: glowing01 5s linear infinite;
+  transform-origin: center;
+  animation: glowing 5s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.card {
+  height: 450px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.card:before {
+  position: absolute;
+  content: "";
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 175, 24, 1) 30%,
+    rgba(21, 210, 195, 1) 70%
+  );
+  transform: rotate(90deg);
+  animation: 3s linear 0s infinite rotate;
+  backdrop-filter: 10px;
+}
+
+.card:after {
+  width: 280px;
+  height: 430px;
+  position: absolute;
+  content: "";
+  background: #000;
+}
+
+.card-inner {
+  width: 280px;
+  height: 430px;
+  color: #fff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.card-inner h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ft_card {
+}
+
+.ft_card {
+  /* box-shadow: 0px 5px 64px #1b0e61, 0px 0px 20px #1b0e61; */
+  box-shadow: 0px 2px 18px #2209a6;
+  background: #13111a;
+  border-radius: 8px;
+  border: 1px solid #2d69c2;
+  margin: 20px 3px;
+}
+.brand {
+  max-width: 185px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .sm_spacing {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .ts_p {
+    display: none;
+  }
+}
+
+/**********modified css*********/
+img.road_img {
+  width: 72px;
+  display: block;
+}
+
+.road_card {
+  background: #111;
+  padding: 37px;
+  border-radius: 10px;
+  height: 420px;
+  margin: 15px 4px;
+  border: 1px solid #2d69c2;
+  box-shadow: 0px 2px 13px #290bc1f9;
+}
+
+.road_card h3,
+.road_card h2 {
+  font-family: "Simpsonfont", sans-serif;
+}
+.road_card ul {
+  margin: 0;
+  padding: 0;
+}
+
+.road_card ul li {
+  font-family: "Fishes Friends", sans-serif;
+  margin-left: 12px;
+}
+.roadmap_sec {
+  padding: 0px 0 80px;
+  background-color: #13111a;
+}
+.road_list {
+  color: #fff;
+}
+.road_list li {
+  list-style-type: square !important;
+}
+
+/*******menu item*******/
+.butn {
+  padding: 8px 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2c04fe;
+  border-radius: 2px;
+  margin-left: 10px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.butn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link {
+  padding: 0 20px !important;
+}
+
+.social_icon {
+  margin: 30px 0;
+}
+
+.social_icon a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background-color: #010921;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 2px 30px 2px #290bc1f9;
+}
