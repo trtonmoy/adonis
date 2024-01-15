@@ -14378,7 +14378,7 @@ a.fugu-app-btn:last-child {
   background-color: var(--primary-500);
 }
 .fugu--hero-content3 .fugu--btn.bg-blue.active {
-  background-color: var(--primary-500);
+  background: linear-gradient(to right, #8e54ce, #42a3b0, #1bbb96);
   box-shadow: 5px 5px 0 0 var(--gray-10);
 }
 .fugu--thumb-three {

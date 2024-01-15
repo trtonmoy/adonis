@@ -236,7 +236,7 @@ img.road_img {
   padding: 8px 30px;
   text-decoration: none;
   color: #fff;
-  background-color: #2c04fe;
+  background: linear-gradient(to right, #8e54ce, #42a3b0, #1bbb96);
   border-radius: 2px;
   margin-left: 10px;
   display: inline-block;
